@@ -29,32 +29,44 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void france() {
-		
+		StdDraw.setXscale(8, 11);
+		StdDraw.setYscale(1, 6);
+		mother();
 		// TODO
 	}
 
 	public static void indonesia() {
-		
+		StdDraw.setXscale(1, 6);
+		StdDraw.setYscale(9, 11);
+		mother();
 		// TODO
 	}
 
 	public static void netherlands() {
-		
+		StdDraw.setXscale(1, 6);
+		StdDraw.setYscale(8, 11);
+		mother();
 		// TODO
 	}
 
 	public static void poland() {
-		
+		StdDraw.setXscale(1, 6);
+		StdDraw.setYscale(5, 7);
+		mother();
 		// TODO
 	}
 
 	public static void thailand() {
-		
+		StdDraw.setXscale(1, 6);
+		StdDraw.setYscale(5, 11);
+		mother();
 		// TODO
 	}
 
 	public static void finland() {
-		
+		StdDraw.setXscale(6, 12);
+		StdDraw.setYscale(6, 10);
+		mother();
 		// TODO
 	}
 
@@ -63,7 +75,7 @@ public class NorwayMotherOfAllFlags {
 			int canvasHeight = 512;
 			int canvasWidth = 22 * canvasHeight / 16;
 			StdDraw.setCanvasSize(canvasWidth, canvasHeight);
-			Object[] options = { "Continue", "Exit" };
+			Object[] options = { "CONTINUE", "EXIT" };
 			while (true) {
 				norway();
 				if (DialogBoxes.askUser("Continue to Flag of France?", "Current: Norway", JOptionPane.QUESTION_MESSAGE,
